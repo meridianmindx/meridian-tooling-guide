@@ -12,6 +12,8 @@ This repo is always open: every artifact is released under permissive licenses (
 
 ---
 
+[![Build Status](https://github.com/meridianmindx/meridian-tooling-guide/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-tooling-guide/actions/workflows/build.yml)
+
 ## ⭐ Quick Start
 
 | Action                | Target              | Command / Link                             | Time |
@@ -27,10 +29,10 @@ This repo is always open: every artifact is released under permissive licenses (
 
 | Package | Registry | Status | Quick Install |
 |---------|----------|--------|---------------|
-| **mcp-deploy** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/mcp-deploy.svg)](https://pypi.org/project/mcp-deploy/) | `pip install mcp-deploy` |
-| **crewai-deploy-orchestrator** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/crewai-deploy-orchestrator.svg)](https://pypi.org/project/crewai-deploy-orchestrator/) | `pip install crewai-deploy-orchestrator` |
-| **MCP Deploy Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/mcp-deploy/mcp-deploy) | [Try Demo](https://huggingface.co/spaces/mcp-deploy/mcp-deploy) |
-| **Agent Deploy Orchestrator Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/crewai-deploy-orchestrator/demo) | [Try Demo](https://huggingface.co/spaces/crewai-deploy-orchestrator/demo) |
+| **mcp-deploy** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) | `pip install meridian-mcp-deploy` |
+| **crewai-deploy-orchestrator** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/meridian-crewai-deploy-orchestrator.svg)](https://pypi.org/project/meridian-crewai-deploy-orchestrator/) | `pip install meridian-crewai-deploy-orchestrator` |
+| **MCP Deploy Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/meridian-meridian-mcp-deploy/meridian-meridian-mcp-deploy) | [Try Demo](https://huggingface.co/spaces/meridian-meridian-mcp-deploy/meridian-meridian-mcp-deploy) |
+| **Agent Deploy Orchestrator Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/meridian-meridian-crewai-deploy-orchestrator/demo) | [Try Demo](https://huggingface.co/spaces/meridian-meridian-crewai-deploy-orchestrator/demo) |
 
 ---
 
@@ -88,10 +90,10 @@ Apply our skills to avoid common pitfalls:
 
 | Package | Registry | Status | Quick Install |
 |---------|----------|--------|---------------|
-| **mcp-deploy** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/mcp-deploy.svg)](https://pypi.org/project/mcp-deploy/) | \`pip install mcp-deploy\` |
-| **crewai-deploy-orchestrator** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/crewai-deploy-orchestrator.svg)](https://pypi.org/project/crewai-deploy-orchestrator/) | \`pip install crewai-deploy-orchestrator\` |
-| **MCP Deploy Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/mcp-deploy/mcp-deploy) | [Try Demo](https://huggingface.co/spaces/mcp-deploy/mcp-deploy) |
-| **Agent Deploy Orchestrator Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/crewai-deploy-orchestrator/demo) | [Try Demo](https://huggingface.co/spaces/crewai-deploy-orchestrator/demo) |
+| **mcp-deploy** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) | \`pip install mcp-deploy\` |
+| **crewai-deploy-orchestrator** | PyPI | [![PyPI version](https://img.shields.io/pypi/v/meridian-crewai-deploy-orchestrator.svg)](https://pypi.org/project/meridian-crewai-deploy-orchestrator/) | \`pip install crewai-deploy-orchestrator\` |
+| **MCP Deploy Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/meridian-meridian-mcp-deploy/meridian-meridian-mcp-deploy) | [Try Demo](https://huggingface.co/spaces/meridian-meridian-mcp-deploy/meridian-meridian-mcp-deploy) |
+| **Agent Deploy Orchestrator Space** | HuggingFace | [![HuggingFace Space](https://img.shields.io/badge/🤖_HF_Space-live-blue)](https://huggingface.co/spaces/meridian-meridian-crewai-deploy-orchestrator/demo) | [Try Demo](https://huggingface.co/spaces/meridian-meridian-crewai-deploy-orchestrator/demo) |
 
 
 
