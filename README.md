@@ -13,6 +13,7 @@ This repo is always open: every artifact is released under permissive licenses (
 ---
 
 [![Build Status](https://github.com/meridianmindx/meridian-tooling-guide/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-tooling-guide/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ⭐ Quick Start
 
