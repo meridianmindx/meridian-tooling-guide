@@ -17,7 +17,7 @@ Quick-start to deploying agents end-to-end with MCP and CrewAI primitives.
 
 ## Steps
 
-- [ ] 1. Install `mcp-deploy` package (local wheel OK)
+- [ ] 1. Install `meridian-mcp-deploy` package (local wheel OK)
 - [ ] 2. Configure MCP runtime with NIM endpoints
 - [ ] 3. Run sample crew config via CLI
 

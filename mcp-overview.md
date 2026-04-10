@@ -63,7 +63,7 @@ Pre-defined message templates that LLMs can request. Used for:
 
 | Package | Purpose | Status | Registry |
 |---------|---------|--------|----------|
-| `mcp-deploy` | Generate Docker, serverless, and cloud configs for any MCP server | ✅ Production | PyPI |
+| `meridian-mcp-deploy` | Generate Docker, serverless, and cloud configs for any MCP server | ✅ Production | PyPI |
 | `@meridian/context-compression` | Reduce token usage with smart context pruning | ✅ Production | npm |
 | `agent-deploy-orchestrator` | Deploy CrewAI/agent workloads with orchestration | ✅ Production | PyPI |
 
@@ -72,7 +72,7 @@ Pre-defined message templates that LLMs can request. Used for:
 ```mermaid
 graph LR
     A[LLM Host<br/>Claude Desktop] --> B[MCP Client]
-    B --> C[MCP Server<br/>mcp-deploy]
+    B --> C[MCP Server<br/>meridian-mcp-deploy]
     C --> D[Docker/K8s<br/>Infrastructure]
     C --> E[Context<br/>Compression]
     D --> F[Running<br/>Agents]
@@ -134,19 +134,19 @@ mcp dev server.py  # Uses MCP Inspector
 
 ---
 
-## Deployment with mcp-deploy
+## Deployment with meridian-mcp-deploy
 
-`mcp-deploy` transforms any MCP server into production-ready deployments:
+`meridian-mcp-deploy` transforms any MCP server into production-ready deployments:
 
 ```bash
 # Generate Docker config
-mcp-deploy --server my-server.py --output docker/
+meridian-mcp-deploy --server my-server.py --output docker/
 
 # Generate serverless (AWS Lambda)
-mcp-deploy --server my-server.py --output lambda/ --target serverless
+meridian-mcp-deploy --server my-server.py --output lambda/ --target serverless
 
 # Generate Kubernetes manifests
-mcp-deploy --server my-server.py --output k8s/ --target kubernetes
+meridian-mcp-deploy --server my-server.py --output k8s/ --target kubernetes
 ```
 
 Output includes:
@@ -221,7 +221,7 @@ Compress, summarize, or retrieve relevant context from large corpora.
 - [agent-deploy-mvp.md](agent-deploy-mvp.md) — Deploying agent systems
 - [skills/package-publication-prep.md](../skills/package-publication-prep.md) — Package distribution
 - [demo-showcase/README.md](../demo-showcase/README.md) — Working examples
-- [docs/mcp-deploy/README.md](../docs/mcp-deploy/README.md) — mcp-deploy reference
+- [docs/meridian-mcp-deploy/README.md](../docs/meridian-mcp-deploy/README.md) — meridian-mcp-deploy reference
 
 ---
 
@@ -231,4 +231,4 @@ Compress, summarize, or retrieve relevant context from large corpora.
 - **[README.md](README.md)** — Main guide index
 - **[skills/package-publication-prep.md](../skills/package-publication-prep.md)** — Package distribution
 - **[demo-showcase/README.md](../demo-showcase/README.md)** — Working examples
-- **[docs/mcp-deploy/README.md](../docs/mcp-deploy/README.md)** — mcp-deploy reference
+- **[docs/meridian-mcp-deploy/README.md](../docs/meridian-mcp-deploy/README.md)** — meridian-mcp-deploy reference

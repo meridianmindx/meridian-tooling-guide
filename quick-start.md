@@ -6,18 +6,18 @@ Get up and running with Meridian's automation stack in 5 minutes.
 
 - Python 3.10+
 - `pip install -r requirements.txt` in each tool directory
-- GitHub account (for mcp-deploy and CrewAI examples)
+- GitHub account (for meridian-mcp-deploy and CrewAI examples)
 
 ## 1. Deploy an MCP Server (2 min)
 
 ```bash
-# Clone and install mcp-deploy
-git clone https://github.com/meridian-mind/mcp-deploy.git
-cd mcp-deploy
+# Clone and install meridian-mcp-deploy
+git clone https://github.com/meridian-mind/meridian-mcp-deploy.git
+cd meridian-mcp-deploy
 pip install -e .
 
 # Generate a Docker Compose for a simple file server
-mcp-deploy generate --type filesystem --path ./data --name my-fileserver
+meridian-mcp-deploy generate --type filesystem --path ./data --name my-fileserver
 
 # Deploy (Docker or Kubernetes)
 docker-compose up -d

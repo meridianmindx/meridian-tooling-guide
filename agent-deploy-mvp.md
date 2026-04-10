@@ -73,14 +73,14 @@ if __name__ == "__main__":
 
 ## Step 2: Generate Deployment Config
 
-Using `mcp-deploy`:
+Using `meridian-mcp-deploy`:
 
 ```bash
-# Install mcp-deploy
-pip install mcp-deploy
+# Install meridian-mcp-deploy
+pip install meridian-mcp-deploy
 
 # Generate docker-compose.yml from your agent
-mcp-deploy --server crew.py --output ./deploy --target docker
+meridian-mcp-deploy --server crew.py --output ./deploy --target docker
 
 # Preview generated files
 ls deploy/
@@ -123,7 +123,7 @@ scp -r deploy/ user@cloud-server:/opt/agent-deploy
 ssh user@cloud-server "cd /opt/agent-deploy && docker-compose up -d"
 ```
 
-### Option B: Kubernetes (with mcp-deploy --target kubernetes)
+### Option B: Kubernetes (with meridian-mcp-deploy --target kubernetes)
 Generated manifests support:
 - Deployments with rolling updates
 - Services (ClusterIP/LoadBalancer)
@@ -132,7 +132,7 @@ Generated manifests support:
 
 ```bash
 # Generate k8s manifests
-mcp-deploy --server crew.py --output k8s/ --target kubernetes
+meridian-mcp-deploy --server crew.py --output k8s/ --target kubernetes
 
 # Apply
 kubectl apply -f k8s/
@@ -201,7 +201,7 @@ kubectl apply -f k8s/
 
 ## Advanced: Multi-Agent Orchestration
 
-Use `crewai-deploy-orchestrator` for coordinated multi-crew deployments:
+Use `meridian-crewai-deploy-orchestrator` for coordinated multi-crew deployments:
 
 ```python
 # orchestrator.py
@@ -217,7 +217,7 @@ orch.run()
 
 Deploy with:
 ```bash
-mcp-deploy --server orchestrator.py --output ./orchestrator-deploy/
+meridian-mcp-deploy --server orchestrator.py --output ./orchestrator-deploy/
 ```
 
 ---
@@ -268,7 +268,7 @@ For production:
 | Single server | docker-compose with multiple services | Development, small workloads |
 | Multi-service | Docker Swarm | Medium scale, need orchestration |
 | Cloud-native | Kubernetes with HPA | Production, variable load |
-| Serverless | mcp-deploy --target serverless | Sporadic, event-driven workloads |
+| Serverless | meridian-mcp-deploy --target serverless | Sporadic, event-driven workloads |
 
 ---
 
