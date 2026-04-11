@@ -19,3 +19,13 @@ This repository is part of a visibility campaign to share practical AI agent too
 - [crewAI](https://github.com/crewAIInc/crewAI) (forked for reference) ⭐
 
 We're also engaging with the community on relevant GitHub discussions to share solutions.
+
+## 💰 Affiliate Disclosure
+
+We participate in affiliate programs for cloud providers. If you sign up using our links, we may earn a commission at no extra cost to you. This helps support the project.
+
+- **AWS**: [Sign up for AWS Free Tier](https://aws.amazon.com/free/?tag=meridian-20)
+- **DigitalOcean**: [Get $200 credit](https://m.do.co/c/meridian-20)
+- **GCP**: [Start with $300 free](https://cloud.google.com/free/?utm_source=meridian)
+
+These links provide you with the same great deals and help us continue building open-source tools.
